@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artifact 2: Machine Learning or Deep Learning? | Kirti Mittal</title>
+  <meta name="description" content="A decision guide that helps e-commerce product teams choose between machine learning and deep learning.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="index.html">Kirti <span>Mittal</span></a>
+      <nav>
+        <a href="index.html#about">About</a>
+        <a href="index.html#artifacts" class="active">AI/ML Work</a>
+        <a href="artifact-1.html">Artifact 1</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="crumbs"><a href="index.html">Home</a> / <a href="index.html#artifacts">AI/ML Work</a> / Artifact 2</div>
+
+    <div class="art-head">
+      <p class="eyebrow">Artifact 2 · AIML-500 Workshop 2 · Machine Learning vs. Deep Learning</p>
+      <h1>Machine Learning or Deep Learning? A Decision Guide for E-commerce Teams</h1>
+      <p class="lede">For product managers, designers, and frontend developers who are asked to "add AI" to a feature. This guide helps a team pick the right approach before it spends a sprint building the wrong one.</p>
+      <div class="actions">
+        <a class="btn primary" href="files/ML-or-Deep-Learning-Decision-Guide-Kirti-Mittal.pdf" download>Download the decision guide (PDF)</a>
+        <a class="btn ghost" href="files/ML-or-Deep-Learning-Decision-Guide-Kirti-Mittal.pdf" target="_blank" rel="noopener">Open in browser</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>5</b><span>Questions to ask before choosing</span></div>
+        <div class="stat"><b>5</b><span>Common e-commerce features mapped</span></div>
+        <div class="stat"><b>2</b><span>Real-world examples</span></div>
+        <div class="stat"><b>1</b><span>Rule of thumb</span></div>
+      </div>
+    </div>
+
+    <div class="layout">
+      <aside class="toc">
+        <p>On this page</p>
+        <ol>
+          <li><a href="#title">Title</a></li>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#description">Description</a></li>
+          <li><a href="#objective">Objective</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#tools">Tools and Technologies Used</a></li>
+          <li><a href="#value-proposition">Value Proposition</a></li>
+          <li><a href="#unique-value">Unique Value</a></li>
+          <li><a href="#relevance">Relevance</a></li>
+          <li><a href="#references">References</a></li>
+        </ol>
+      </aside>
+
+      <article>
+        <section class="field" id="title">
+          <span class="label">Title</span>
+          <h2>Machine Learning or Deep Learning? A Decision Guide for E-commerce Teams</h2>
+        </section>
+
+        <section class="field" id="introduction">
+          <span class="label">Introduction</span>
+          <p>In product meetings, "let's use AI" often comes before anyone asks which kind. I have seen teams jump straight to the most advanced option, then struggle with the data, cost, or explanations it requires. Artifact 1 showed that I can <b>build and test</b> an AI tool. This artifact shows a different skill: <b>analyzing a problem and choosing the right AI approach</b>, then explaining that choice in plain language.</p>
+        </section>
+
+        <section class="field" id="description">
+          <span class="label">Description</span>
+          <p>A downloadable <b>2-page decision guide</b> (PDF). It includes:</p>
+          <ul>
+            <li><b>Five questions</b> to ask before choosing: can we name the features, how much labeled data we have, whether we must explain each decision, what it will cost to run, and what happens when it is wrong.</li>
+            <li><b>A quick map</b> of five common e-commerce features, such as spam filtering, churn prediction, and search by photo, with the approach I would start with and why.</li>
+            <li><b>Two real-world examples</b>, one where traditional machine learning fits and one where deep learning fits, each with the reason the other approach does not.</li>
+            <li><b>Mistakes to avoid</b> and a one-line rule of thumb.</li>
+          </ul>
+          <figure>
+            <a href="files/ML-or-Deep-Learning-Decision-Guide-Kirti-Mittal.pdf" target="_blank" rel="noopener"><img src="images/guide-page1.jpg" alt="Page 1 of the decision guide, showing the five questions and the e-commerce feature map" loading="lazy"></a>
+            <figcaption><b>Page 1 of the guide.</b> The five questions and the quick map. Click to open the full PDF.</figcaption>
+          </figure>
+        </section>
+
+        <section class="field" id="objective">
+          <span class="label">Objective</span>
+          <ul>
+            <li>Help non-specialists decide between machine learning and deep learning with a few clear questions.</li>
+            <li>Show, with real products, why the "more advanced" option is not always the right one.</li>
+            <li>Practice turning a class report into something a working team can use in a planning meeting.</li>
+          </ul>
+        </section>
+
+        <section class="field" id="process">
+          <span class="label">Process</span>
+          <ol class="steps">
+            <li><b>Started from my class report.</b> In Assignment 2.3, I compared one machine learning example from the lesson (email spam detection) with one deep learning example (image recognition) and found a real product for each.</li>
+            <li><b>Checked every fact against the source.</b> For spam filtering, I used Apache SpamAssassin's documentation, which says its Bayesian filter needs 200 spam and 200 non-spam emails before it starts scoring. For image recognition, I used Amazon's own descriptions of StyleSnap, which finds clothing from a shopper's photo using deep learning and convolutional neural networks.</li>
+            <li><b>Changed the audience.</b> The report was written to explain differences to a grader. The guide is written for a product team, so I turned the lesson's three key differences (feature extraction, data requirements, and complexity) into five questions a team can actually answer.</li>
+            <li><b>Added e-commerce examples</b> from my own work, like churn prediction and search by photo, so readers can see where their feature fits.</li>
+            <li><b>Cut it to two pages</b> so it can be shared in a meeting and read in a few minutes.</li>
+          </ol>
+
+          <h2>Challenges and how I solved them</h2>
+          <ul>
+            <li><b>The lesson's algorithm and the real product did not match exactly.</b> The lesson pairs spam detection with logistic regression or a decision tree, but SpamAssassin uses a Bayesian classifier. I explained that both are traditional machine learning, because people still choose the features.</li>
+            <li><b>Too much to fit.</b> My report was over 1,300 words. I kept only what helps a decision and moved the detail into the two example boxes.</li>
+            <li><b>Avoiding hype.</b> It is easy to make deep learning sound like the answer to everything. I added a "mistakes to avoid" section that starts with "starting with DL because it sounds more advanced."</li>
+          </ul>
+        </section>
+
+        <section class="field" id="tools">
+          <span class="label">Tools and Technologies Used</span>
+          <ul>
+            <li><b>Course lesson</b> on machine learning vs. deep learning, plus official documentation from Apache SpamAssassin and Amazon</li>
+            <li><b>HTML and CSS</b> to design the guide, exported to PDF</li>
+            <li><b>GitHub Pages</b> to host this portfolio</li>
+            <li><b>An AI assistant</b> to help organize the guide and check wording. The examples, analysis, and recommendations are my own.</li>
+          </ul>
+        </section>
+
+        <section class="field" id="value-proposition">
+          <span class="label">Value Proposition</span>
+          <p>This artifact shows that I can evaluate AI options, not just use them. I can look at a business problem, ask the right questions about data, cost, and explainability, and recommend the simplest approach that will work.</p>
+        </section>
+
+        <section class="field" id="unique-value">
+          <span class="label">Unique Value</span>
+          <p>Most ML vs. deep learning explanations are written for data scientists. This one is written from a frontend and e-commerce point of view, for the people who decide what gets built and have to explain it to customers. It also says plainly when deep learning is the wrong choice, which many guides leave out.</p>
+        </section>
+
+        <section class="field" id="relevance">
+          <span class="label">Relevance</span>
+          <p>Online stores are adding AI features quickly, and choosing the wrong approach wastes money and time and can hurt customer trust. A short, shared set of questions helps product, design, and engineering agree on the approach early, which is exactly where AI projects tend to go wrong.</p>
+        </section>
+
+        <section class="field refs" id="references">
+          <span class="label">References</span>
+          <p>Amazon. (2019, June 5). <i>StyleSnap will change the way you shop, forever</i>. https://www.aboutamazon.com/news/retail/stylesnap-will-change-the-way-you-shop-forever</p>
+          <p>Amazon Science. (2020, December 23). <i>The science behind Amazon's new StyleSnap for Home feature</i>. https://www.amazon.science/latest-news/the-science-behind-amazons-new-stylesnap-for-home-feature</p>
+          <p>Apache SpamAssassin Project. (2019, June 22). <i>BayesInSpamAssassin</i>. https://cwiki.apache.org/confluence/display/SPAMASSASSIN/BayesInSpamAssassin</p>
+        </section>
+      </article>
+    </div>
+    <p class="next-link"><a class="btn ghost" href="artifact-1.html">← Back to Artifact 1, A Shopping Assistant on a $0 Budget</a></p>
+  </main>
+
+  <footer>
+    <div class="wrap">Kirti Mittal · AIML-500 Machine Learning Fundamentals · Indiana Wesleyan University</div>
+  </footer>
+</body>
+</html>
